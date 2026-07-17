@@ -5,6 +5,8 @@
 
 JavaScript (JS) is a high‑level, interpreted programming language primarily used to make web pages interactive. It runs in browsers, on servers (via Node.js), and in many modern applications.
 
+JavaScript is a programming language that adds interactivity to websites. You can use it to control just about anything — form data validation, button functionality, game logic, dynamic styling, animation updates, and much more. This article gets you started with JavaScript and walks you through adding some fun features to your first website.
+
 - Created by: Brendan Eich (1995)
 
 - Standardized as: ECMAScript
@@ -23,3 +25,4 @@ JavaScript (JS) is a high‑level, interpreted programming language primarily us
 - Cross-platform → Runs on any device with a browser.
 
 - Asynchronous programming → Supports callbacks, promises, and async/await.
+
