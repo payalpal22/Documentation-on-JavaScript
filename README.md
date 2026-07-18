@@ -12,6 +12,8 @@ JavaScript is a programming language that adds interactivity to websites. You ca
 - Standardized as: ECMAScript
 
 - Main uses: Web interactivity, dynamic content, backend services, mobile apps, game development.
+  
+- JavaScript is case-sensitive
 
 
 ## ⚙️ Key Features
@@ -25,4 +27,19 @@ JavaScript is a programming language that adds interactivity to websites. You ca
 - Cross-platform → Runs on any device with a browser.
 
 - Asynchronous programming → Supports callbacks, promises, and async/await.
+
+
+
+
+## Declarations
+JavaScript has three kinds of variable declarations.
+
+-var
+Declares a variable, optionally initializing it to a value.
+
+-let
+Declares a block-scoped, local variable, optionally initializing it to a value.
+
+-const
+Declares a block-scoped, read-only named constant.
 
