@@ -49,3 +49,15 @@ Declares a block-scoped, read-only named constant.
 
 A JavaScript identifier usually starts with a letter, underscore (_), or dollar sign ($). Subsequent characters can also be digits (0 – 9). Because JavaScript is case sensitive, letters include the characters A through Z (uppercase) as well as a through z (lowercase).
 
+
+## Variable scope
+A variable may belong to one of the following scopes:
+
+- Global scope: The default scope for all code running in script mode.
+- Module scope: The scope for code running in module mode.
+- Function scope: The scope created with a function.
+In addition, variables declared with let or const can belong to an additional scope:
+
+Block scope: The scope created with a pair of curly braces (a block).
+When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.
+
