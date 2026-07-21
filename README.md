@@ -61,3 +61,20 @@ In addition, variables declared with let or const can belong to an additional sc
 Block scope: The scope created with a pair of curly braces (a block).
 When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.
 
+
+## Variable hoisting
+
+var-declared variables are hoisted, meaning you can refer to the variable anywhere in its scope, even if its declaration isn't reached yet. You can see var declarations as being "lifted" to the top of its function or global scope. However, if you access a variable before it's declared, the value is always undefined, because only its declaration and default initialization (with undefined) is hoisted, but not its value assignment.
+
+- before variable hosting
+console.log(x); // Output: undefined
+var x = 5;
+console.log(x); // Output: 5
+
+-after variable hosting
+var x;          // declaration hoisted
+console.log(x); // undefined (since only declared, not assigned yet)
+x = 5;          // assignment happens here
+console.log(x); // 5
+
+
