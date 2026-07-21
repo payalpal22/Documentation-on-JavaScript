@@ -34,13 +34,13 @@ JavaScript is a programming language that adds interactivity to websites. You ca
 ## Declarations
 JavaScript has three kinds of variable declarations.
 
--var
+- var
 Declares a variable, optionally initializing it to a value.
 
--let
+- let
 Declares a block-scoped, local variable, optionally initializing it to a value.
 
--const
+- const
 Declares a block-scoped, read-only named constant.
 
 
@@ -74,7 +74,7 @@ var x = 5;
 
 console.log(x);  // Output: 5
 
--after variable hosting
+- after variable hosting
 
 var x;            // declaration hoisted
 
