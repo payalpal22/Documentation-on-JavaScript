@@ -69,14 +69,19 @@ var-declared variables are hoisted, meaning you can refer to the variable anywhe
 - before variable hosting
   
 console.log(x);  // Output: undefined
+
 var x = 5;
+
 console.log(x);  // Output: 5
 
 -after variable hosting
 
 var x;            // declaration hoisted
+
 console.log(x);    // undefined (since only declared, not assigned yet)
+
 x = 5;            // assignment happens here
+
 console.log(x);   // 5
 
 
